@@ -1,0 +1,106 @@
+.block_ {
+    display: block;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: underline;
+    margin: 0 0 10pt;
+    padding: 0
+    }
+.block_1 {
+    display: block;
+    font-family: serif;
+    font-size: 0.75em;
+    line-height: 1.15;
+    text-align: justify;
+    margin: 0 0 10pt;
+    padding: 0
+    }
+.block_2 {
+    display: block;
+    line-height: 1.2;
+    text-align: justify;
+    margin: 0 0 10pt;
+    padding: 0
+    }
+.block_3 {
+    display: block;
+    font-family: "1 MUHAMMADI QURANIC", cursive;
+    font-size: 0.75em;
+    margin: 0 0 10pt;
+    padding: 0
+    }
+.block_4 {
+    display: block;
+    font-size: 1.41667em;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: justify;
+    margin: 0 0 10pt;
+    padding: 0
+    }
+.block_5 {
+    display: block;
+    font-family: "Trad Arabic Bold Unicode", serif;
+    line-height: 1.2;
+    text-align: justify;
+    margin: 0 0 10pt;
+    padding: 0
+    }
+.block_6 {
+    display: block;
+    line-height: 1.2;
+    text-align: justify;
+    text-indent: 36pt;
+    margin: 0 0 10pt;
+    padding: 0
+    }
+.block_7 {
+    display: block;
+    font-family: serif;
+    line-height: 1.2;
+    text-align: justify;
+    margin: 0 0 10pt;
+    padding: 0
+    }
+.block_8 {
+    display: block;
+    line-height: 1.2;
+    text-align: justify;
+    margin: 0;
+    padding: 0
+    }
+.calibre {
+    color: black;
+    display: block;
+    font-family: "Jameel Noori Nastaleeq", serif;
+    font-size: 1em;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0 5pt
+    }
+.calibre1 {
+    line-height: 1.2;
+    white-space: pre-wrap
+    }
+.calibre2 {
+    white-space: pre-wrap
+    }
+.calibre3 {
+    line-height: 1.2
+    }
+.tab {
+    line-height: 1.2;
+    white-space: pre-wrap
+    }
+.tab1 {
+    white-space: pre-wrap
+    }
+.text_ {
+    font-family: "Jameel Noori Nastaleeq", serif;
+    line-height: 1.2
+    }
+.text_1 {
+    font-family: "Times New Roman", serif;
+    line-height: 1.2
+    }
