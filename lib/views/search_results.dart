@@ -34,11 +34,14 @@ class SearchResult extends StatelessWidget {
                     onTap: () {
                       String allText =
                           searchResults[index]['fullText'].toString();
-                      String result = allText.replaceAll(
-                          searchedText, "<mark>$searchedText</mark> ");
+                      String result = allText.replaceAll(searchedText,
+                          "<mark><div id=\"search\">$searchedText</div></mark> ");
+                      String str =
+                          "<p>Go to the<a href=\"#search\">top</a> </p>";
+                      String lorem = "<p id=\"Lorem_Ipsum\">Lorem Ipsum</p>";
 
                       Get.to(HTMLTextView(
-                        allText: result,
+                        allText: lorem + result + str,
                       ));
                     },
                   ),

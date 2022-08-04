@@ -29,19 +29,6 @@ class TextView extends StatelessWidget {
               ), // user typed "et"
             ),
           ),
-          // SingleChildScrollView(
-          //   scrollDirection: Axis.vertical, //.horizontal
-          //   child: Padding(
-          //     padding: const EdgeInsets.all(8.0),
-          //     child: Text(
-          //       allText,
-          //       style: TextStyle(
-          //         fontSize: 16.0,
-          //         color: Colors.black,
-          //       ),
-          //     ),
-          //   ),
-          // ),
         ],
       ),
     );

@@ -7,7 +7,7 @@ class HTMLTextView extends StatelessWidget {
 
   HTMLTextView({Key? key, required this.allText}) : super(key: key);
   ScrollController scrollController =
-      ScrollController(initialScrollOffset: 8050, keepScrollOffset: true);
+      ScrollController(initialScrollOffset: 12000, keepScrollOffset: true);
   @override
   Widget build(BuildContext context) {
     return Directionality(
@@ -17,11 +17,16 @@ class HTMLTextView extends StatelessWidget {
           title: const Text('HTML Text View'),
         ),
         body: ListView(
-          controller: scrollController,
           children: [
             Padding(
                 padding: const EdgeInsets.all(12.0),
-                child: Html(data: allText)),
+                child: HtmlWidget(
+                  allText,
+
+                  // customWidgetBuilder: (element) {
+                  //   element.id = 'search';
+                  // },
+                )),
           ],
         ),
       ),
